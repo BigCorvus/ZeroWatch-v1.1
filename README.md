@@ -5,7 +5,7 @@ Features:
 -ATSAMD21 microcontroller with Arduino support via USB bootloader<br />
 -capacitive touchscreen (based on the BL6280 controller)<br />
 -HM11 bluetooth 4.0 module<br />
--ST7735 128x128 tft (the one that's inside the watch already)<br />
+-ST7735 128x128 18-pin SPI tft (the one that's inside the watch already)<br />
 -MPU9250 9-DOF IMU<br />
 -BME680 environmental sensor<br />
 -vibration motor<br />
