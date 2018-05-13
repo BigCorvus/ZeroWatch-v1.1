@@ -1,4 +1,6 @@
 # ZeroWatch-v1.1
+![alt text](https://github.com/BigCorvus/ZeroWatch-v1.1/blob/master/Pics/20180513_183945.jpg)
+
 Replacement board for a cheap chinese U8/U80 watch.
 Based on the work of Dan Geiger.
 Features:
@@ -12,3 +14,8 @@ Features:
 -infrared transmitter (APA3010F3C-GX LED)<br />
 -piezo disc (optional)<br />
 -I equipped mine with a QI inductive charging pad<br />
+
+The software is based on Dan Geigers ingenious menu structure which enables you to add new apps easily.
+It's quite raw but optimized for power consumption. With the 403030 lipo I can get 8 days of standby time with bluetooth constantly advertising.
+
+
