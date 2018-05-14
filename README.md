@@ -28,6 +28,7 @@ The pic shows some useless variants on the right and some hackable ones on the l
 - The button can be installed either using the native one or by installing a SW1256CT-ND switch (digikey). The latter requires some hacking to the enclosure  
 - a small hole has to be drilled for the IR LED if you wish to use one.
 - the HM-11 should be flashed with the newest firmware before installing on the v1.1 PCB.   
+- if you have a PCB manufactured, the substrate thickness should be between 0.4 and 0.8mm, so OSH Park's 0.8mm service is a good choice.
 
 
 
