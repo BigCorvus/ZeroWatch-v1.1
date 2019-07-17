@@ -29,6 +29,7 @@ The pic shows some useless variants on the right and some hackable ones on the l
 - a small hole has to be drilled for the IR LED if you wish to use one.
 - the HM-11 should be flashed with the newest firmware before installing on the v1.1 PCB.   
 - if you have a PCB manufactured, the substrate thickness should be between 0.4 and 0.8mm, so OSH Park's 0.8mm service is a good choice.
+-in the latest modification I replaced the HM11 with a tiny nRF52832 module (https://de.aliexpress.com/item/32840369737.html?spm=a2g0o.productlist.0.0.22d43589wkmK8l&s=p&algo_pvid=c23bce47-e7e4-404d-a416-df6c4eb9f3a8&algo_expid=c23bce47-e7e4-404d-a416-df6c4eb9f3a8-1&btsid=25448c7b-c97c-4e22-b295-2b7a35d97857&ws_ab_test=searchweb0_0%2Csearchweb201602_8%2Csearchweb201603_53) which I  flashed with a modified BLE UART example inside the Adafruit nRF52 core. It can be brought into sub-µA deep sleep by the ATSAMD. By using a passthrough sketch for the ATSAMD which lets it act as an USB-to UART bridge you can even program the nRF52832 via USB and the Arduino IDE. I tested the concept and it seems to be the best solution so far. Code and wiring scheme for this will be puplished as soon as I have time for it.
 
 
 
